@@ -1,0 +1,17 @@
+python train.py\
+    --data_path /KANO-main/data/fold_1_train_121824.csv\
+    --separate_val_path /KANO-main/data/fold_1_val_121824.csv\
+    --separate_test_path /KANO-main/data/test_kano_input_121824.csv\
+    --dataset_type regression\
+    --split_type random\
+    --metric rmse\
+    --epochs 100\
+    --num_runs 5\
+    --gpu 0\
+    --batch_size 256\
+    --init_lr 5e-4\
+    --ensemble_size 1\
+    --step functional_prompt\
+    --exp_name finetune\
+    --exp_id Tox24_fold_1\
+    --checkpoint_path "./dumped/pretrained_graph_encoder/original_CMPN_0623_1350_14000th_epoch.pkl"

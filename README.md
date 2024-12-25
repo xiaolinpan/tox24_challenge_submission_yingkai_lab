@@ -11,7 +11,7 @@ Transthyretin (TTR) plays a vital role in thyroid hormone transport and homeosta
 
 ## Requirements
 
-* sPhysNet
-* KANO
-* GGAP-CPI
+* [sPhysNet](https://github.com/xiaolinpan/sPhysNet-Taut)
+* [KANO](https://github.com/HICAI-ZJU/KANO)
+* [GGAP-CPI](https://github.com/gu-yaowen/GGAP-CPI)
 

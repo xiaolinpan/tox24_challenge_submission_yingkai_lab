@@ -1,5 +1,5 @@
 import os, sys
-sys.path.append("/scratch/xp2042/Frag20/sPhysNet-MT/")
+sys.path.append("./sPhysNet-MT/")
 
 from Networks.PhysDimeNet import PhysDimeNet
 from utils.utils_functions import fix_model_keys

@@ -10,7 +10,7 @@ This repository contains scripts for fine-tuning and predicting using models tra
 ### 2. `make_prediction_tox24_1.sh`
 - This script runs predictions on the train, test, and leaderboard sets using the model trained on the Tox24 training set.
 
-### 3. `make_prediction_tox24_1.sh`
+### 3. `make_prediction_tox24_2.sh`
 - This script runs predictions on the train, test, and leaderboard sets using the model trained on both the Tox24 training set and the leaderboard set.
 
 ## Notes
